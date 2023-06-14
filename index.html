@@ -1,0 +1,58 @@
+u<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <script>
+            //Rule 1:- A variable name must start with a letter or an underscore character (_) 0r $
+            // variable declaration and initilization 
+            var name = "swati";         //valid as begins with alphabet
+            var _name = 'devansh';      //valid as begins with underscore(_)
+            var $name = "swati";        //valid as begins with $(dollar sign)
+            
+            console.log(name);
+            console.log(_name);
+            console.log($name);
+            
+            //rule 2. A variable name cannot start with a digit
+            let name1 = 'tanmay';   //valid as we can use digit anywhere after 1st character of variable
+            const na1me = "bhavya"; //valid as we can use digit anywhere after 1st character of variable
+            
+            console.log(name1);
+            console.log(na1me);
+
+            //Rule 3:- A variable name can only contain alpha-numeric characters and underscores (a-z, A-Z, 0-9, and _ )
+            var mobile_91=('6395100192');    //valid as includes alpha-numeric characters & _
+
+            console.log(mobile_91);
+
+
+            // Rle 4:- Variable names are case-sensitive (age, Age and AGE are three different variables)
+            var a_age= ("18");
+            let a_AGE= ("21");
+            
+            const a_Age= ('30');
+            console.log(a_age + a_AGE + a_Age);
+
+
+            // Rule 5:- A variable name cannot contain spaces
+            var mobile_number = ('6395100192');  // Valid as we can separate strings with _ (Underscore)
+            
+            console.log(mobile_number);
+
+           // Rule 6:- The variable name cannot be any Go keywords /reserved keyword
+            let ilet = ('10');       //Valid  as not using any reserved keyword
+            
+            console.log(ilet);
+           
+            //Rule 7:- There is no limit on the length of the variable name
+            var jahjfhkjahfkjlkdjlvjjfvjfkjbvljbajdvjadvn = ("jshjwghdgqwhgdgwihfgqwg");
+
+            console.log(jahjfhkjahfkjlkdjlvjjfvjfkjbvljbajdvjadvn);
+
+        </script>
+    </body>
+</html>
